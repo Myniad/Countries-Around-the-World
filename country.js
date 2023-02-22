@@ -18,12 +18,12 @@ class Country {
         greetingNode.innerText=this.greeting;
         // let colorNode=document.querySelector("#color1")
         // colorNode.getElementsByClassName.color=this.colors;
-        let colorNode1=document.querySelector("#color1")
-        colorNode1.style.backgroundColor=this.colors[1]
-        let colorNode2=document.querySelector("#color2")
-        colorNode1.style.backgroundColor=this.colors[2]
-        let colorNode3=document.querySelector("#color3")
-        colorNode1.style.backgroundColor=this.colors[3];
+        let colorNode1=document.querySelector("#Color1")
+        colorNode1.style.backgroundColor=(this.colors[0]);
+        let colorNode2=document.querySelector("#Color2")
+        colorNode2.style.backgroundColor=(this.colors[1]);
+        let colorNode3=document.querySelector("#Color3")
+        colorNode3.style.backgroundColor=(this.colors[2]);
     }
 
 
@@ -32,7 +32,7 @@ class Country {
 }
 let usa = new Country("USA", "Murican", "Why Hello there world! Have some McDonalds", ["red", "white", "blue"]);
 let mexico = new Country("Mexico", "Spanish", "Hola mundo!", ["red", "white", "green"]);
-let algeria = new Country("Algeria", "Arabic and Berber", "Sup", ["blue", "yellow", "red"])
+let algeria = new Country("Algeria", "Arabic and Berber", "Marhaban Bialealam", ["blue", "yellow", "red"])
 
 
 function SwitchCountry() {
