@@ -31,8 +31,10 @@ class Country {
 
 }
 let usa = new Country("USA", "Murican", "Why Hello there world! Have some McDonalds", ["red", "white", "blue"]);
-let mexico = new Country("Mexico", "Spanish", "Hola mundo!", ["red", "white", "green"]);
-let algeria = new Country("Algeria", "Arabic and Berber", "Marhaban Bialealam", ["blue", "yellow", "red"])
+let mexico = new Country("Mexico", "Spanish", "Hola mundo!", ["green", "red", "white"]);
+let algeria = new Country("Algeria", "Arabic and Berber", "Marhaban Bialealam", ["red", "white", "green"]);
+let japan = new Country("Japan", "Japanese", "Kon'nichiwa sekai", ["white", "red", "red"]);
+let germany = new Country("Germany", "German", "Hallo Welt", ["black", "yellow", "red"]);
 
 
 function SwitchCountry() {
@@ -51,6 +53,12 @@ function SwitchCountry() {
     }
     else if (input === "Algeria") {
         country = algeria;
+    }
+    else if (input === "Japan") {
+        country = japan;
+    }
+    else if (input === "Germany") {
+        country = germany;
     }
 
 
